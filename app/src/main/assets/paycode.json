@@ -1,0 +1,80 @@
+[
+    {
+        "price": "6",
+        "product": "金币包", 
+        "number": "001",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "10",
+        "product": "超值", 
+        "number": "002",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "20",
+        "product": "热卖", 
+        "number": "003",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "15",
+        "product": "终极大礼包", 
+        "number": "004",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "4",
+        "product": "体力值", 
+        "number": "005",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "20",
+        "product": "幸运翻牌", 
+        "number": "006",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "4",
+        "product": "新手礼包", 
+        "number": "007",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "10",
+        "product": "至尊礼包", 
+        "number": "008",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "10",
+        "product": "豪华道具包", 
+        "number": "009",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "10",
+        "product": "顶级道具包", 
+        "number": "010",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "0.10",
+        "product": "体验大礼", 
+        "number": "011",
+        "outTradeNo": ""
+    }, 
+    {
+        "price": "30",
+        "product": "每日登陆", 
+        "number": "012",
+        "outTradeNo": ""
+    },
+    {
+        "price": "0.05",
+        "product": "每日登陆",
+        "number": "013",
+        "outTradeNo": ""
+    }
+]

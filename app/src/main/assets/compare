@@ -1,0 +1,22 @@
+GET /openapi/authenticate/v1.0?appKey=5bb3543058d042839bc910d2ad109ab0a2d15e88&appSecret=a5a2d592e019a5c55000f1d422fdba35bc62a19d HTTP/1.1
+Host: open.wo.com.cn
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: _ga=GA1.3.1927612005.1473052286
+
+POST /openapi/authenticate/v1.0?appKey=5bb3543058d042839bc910d2ad109ab0a2d15e88&appSecret=a5a2d592e019a5c55000f1d422fdba35bc62a19d HTTP/1.1
+Host: open.wo.com.cn
+Connection: Keep-Alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: _ga=GA1.3.1927612005.1473052286
+Content-Type: application/x-www-form-urlencoded
