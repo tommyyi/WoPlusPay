@@ -15,6 +15,8 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        PayCenter.init(this);
     }
 
     public void pay(View view)

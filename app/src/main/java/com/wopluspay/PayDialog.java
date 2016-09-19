@@ -118,6 +118,7 @@ public class PayDialog extends Dialog
             @Override
             public void onClick(View v)
             {
+                iPayCallback.onResult(PayCenter.FAIL,billingIndex,new Object());
                 PayDialog.this.dismiss();
             }
         });

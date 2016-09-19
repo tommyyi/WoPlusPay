@@ -3,6 +3,7 @@ package com.wopluspay;
 import android.app.Activity;
 import android.app.Dialog;
 import android.graphics.Point;
+import android.os.Handler;
 import android.view.Gravity;
 import android.view.Window;
 import android.view.WindowManager;
@@ -22,6 +23,14 @@ public class PayCenter
 {
     public static final int SUCCESS = 1;
     public static final int FAIL = 2;
+    public static Handler handler;
+    public static Activity activity;
+
+    public static void init(Activity activity)
+    {
+        PayCenter.activity=activity;
+        PayCenter.handler=new Handler();
+    }
 
     public static boolean getCodeSms(Paycode paycode, String phoneNumber)
     {

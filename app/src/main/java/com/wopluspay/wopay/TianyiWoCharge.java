@@ -1,5 +1,7 @@
 package com.wopluspay.wopay;
 
+import android.widget.Toast;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -15,6 +17,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.parser.Feature;
+import com.wopluspay.PayCenter;
 import com.wopluspay.Paycode;
 import com.wopluspay.wopay.entity.ChargeResponse;
 
@@ -120,6 +123,16 @@ public class TianyiWoCharge
             BufferedInputStream err = new BufferedInputStream(connection.getErrorStream());
             resultData = getResponseResult(new InputStreamReader(err, "UTF-8"));
             connection.disconnect();
+
+            final ChargeResponse chargeResponse = JSON.parseObject(resultData, ChargeResponse.class);
+            PayCenter.handler.post(new Runnable()
+            {
+                @Override
+                public void run()
+                {
+                    Toast.makeText(PayCenter.activity,chargeResponse.getResultDescription(),Toast.LENGTH_LONG).show();
+                }
+            });
             return false;
         }
 
